@@ -1,0 +1,32 @@
+{
+  "name": "tilha_ignite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "prisma": "npx prisma studio"
+  },
+  "author": "",
+  "license": "ISC",
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "fastify": "^4.21.0",
+    "prisma": "^5.0.0",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  },
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/jwt": "^7.2.0",
+    "@mermaid-js/mermaid-cli": "^8.12.1",
+    "@prisma/client": "^5.0.0",
+    "short-unique-id": "^4.4.4",
+    "zod": "^3.21.4"
+  }
+}
